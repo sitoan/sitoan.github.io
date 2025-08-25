@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Si Nhat Toan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #121212;
+      color: #f5f5f5;
+      line-height: 1.6;
+    }
+    header {
+      background: #1e1e1e;
+      padding: 20px;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    header p {
+      margin: 5px 0;
+    }
+    section {
+      padding: 40px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    h2 {
+      border-bottom: 2px solid #444;
+      padding-bottom: 5px;
+      margin-bottom: 20px;
+      color: #ffcc00;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    ul li {
+      margin-bottom: 8px;
+    }
+    .skills-grid {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+    .skills-block {
+      flex: 1;
+      min-width: 250px;
+    }
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .tag {
+      background: #333;
+      padding: 6px 12px;
+      border-radius: 20px;
+      font-size: 0.9em;
+      white-space: nowrap;
+    }
+    .edu-cert {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      background: #1e1e1e;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Si Nhat Toan</h1>
+    <p>Software Engineer | Data Engineer</p>
+    <p>Phone: 0945737116 | Email: s.toan883@gmail.com | Address: Tan Phu, Ho Chi Minh</p>
+  </header>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Aspiring Data Engineer with a strong foundation in Software Engineering. Passionate about building data pipelines,
+      scalable systems, and intelligent workflows. Always ready to learn, adapt to new technologies, and embrace challenges.
+      My goal is to combine my software development experience with data engineering expertise to deliver impactful solutions
+      for modern data-driven environments.
+    </p>
+  </section>
+
+  <section id="experience">
+    <h2>Work Experience</h2>
+    <h3>AI Agent System | TADA LABS | 04/2024 – 07/2024</h3>
+    <ul>
+      <li>Built and configured AI-backed prompting templates using CrewAI and ChatGPT-4.</li>
+      <li>Developed Streamlit-based frontend prototype and middleware to connect chatbot with backend APIs.</li>
+      <li>Managed session data and QA logic in PostgreSQL.</li>
+      <li>Integrated Gemini API for intelligent Q&A and consistency validation.</li>
+    </ul>
+
+    <h3>Multi-Agent Workflow Chatbot System | TADA LABS | 02/2024 – 05/2025</h3>
+    <ul>
+      <li>Designed ETL workflows to sync Frappe ERP data via PostgreSQL using n8n.</li>
+      <li>Automated customer session handling and product recommendation using LangChain and GPT.</li>
+      <li>Implemented semantic search with Qdrant to improve data discoverability.</li>
+      <li>Documented pipeline logic and integrated data cleaning processes.</li>
+    </ul>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <h3>Travel Tour Platform with Chatbot | 08/2024 – 11/2024</h3>
+    <ul>
+      <li>Developed middleware to connect chatbot with backend APIs and managed session data with PostgreSQL.</li>
+      <li>Integrated Gemini API for intelligent Q&A and data validation.</li>
+      <li>Collaborated with cross-functional teams to meet project goals.</li>
+    </ul>
+
+    <h3>Diary App – Data Sync System | 08/2024 – 11/2024</h3>
+    <ul>
+      <li>Developed backend solutions in ASP.NET for syncing SQLite with SQL Server via REST APIs.</li>
+      <li>Implemented retry logic for enhanced robustness and ensured version control across devices.</li>
+      <li>Documented data lifecycle processes for better maintainability.</li>
+    </ul>
+  </section>
+
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skills-block">
+        <h3>Technical Skills</h3>
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">SQL</span>
+          <span class="tag">C#</span>
+          <span class="tag">JavaScript</span>
+          <span class="tag">TypeScript</span>
+          <span class="tag">ETL/ELT</span>
+          <span class="tag">Apache Spark</span>
+          <span class="tag">Batch & Stream Processing</span>
+          <span class="tag">PostgreSQL</span>
+          <span class="tag">SQL Server</span>
+          <span class="tag">SQLite</span>
+          <span class="tag">Amazon Redshift</span>
+          <span class="tag">Qdrant</span>
+          <span class="tag">Rasa</span>
+          <span class="tag">LLM (GPT)</span>
+          <span class="tag">LangChain</span>
+          <span class="tag">CrewAI</span>
+        </div>
+      </div>
+      <div class="skills-block">
+        <h3>Tools</h3>
+        <div class="tags">
+          <span class="tag">n8n</span>
+          <span class="tag">Streamlit</span>
+          <span class="tag">AWS</span>
+          <span class="tag">Docker</span>
+          <span class="tag">Git</span>
+          <span class="tag">Power BI</span>
+        </div>
+      </div>
+      <div class="skills-block">
+        <h3>Soft Skills</h3>
+        <div class="tags">
+          <span class="tag">Problem-solving</span>
+          <span class="tag">Attention to detail</span>
+          <span class="tag">Cross-functional collaboration</span>
+          <span class="tag">Adaptability</span>
+          <span class="tag">Self-learning</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="education">
+    <h2>Education & Certifications</h2>
+    <div class="edu-cert">
+      <div>
+        <h3>Education</h3>
+        <ul>
+          <li>Bachelor of Information Technology | Hoa Sen University | 2021–2025</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Certifications</h3>
+        <ul>
+          <li>Aptis English Certificate: Level B2</li>
+          <li>Advanced Prompt Engineering</li>
+          <li>Artificial Intelligence | Samsung Innovation Campus</li>
+          <li>IBM Data Engineering | Coursera</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Si Nhat Toan. All rights reserved.</p>
+  </footer>
+</body>
+</html>
